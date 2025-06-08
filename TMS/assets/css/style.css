@@ -1,0 +1,126 @@
+body {
+    background-color: #4e4a4a;
+    font-family: Arial, sans-serif;
+}
+
+.login-modal {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #1c1c1c;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.modal-header {
+    background-color: #4e4a4a;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.btn-login {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-cancel {
+    background-color: #dee2e6;
+    color: #000;
+    border: none;
+}
+
+.btn-cancel:hover {
+    background-color: #c4c4c4;
+}
+
+
+/* Body background */
+body {
+    background-color: #4e4a4a;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered box */
+.login-modal {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #1c1c1c;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Modal header style */
+.modal-header {
+    background-color: #4e4a4a;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+
+/* Form labels */
+.form-label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Input fields */
+.form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Role dropdown */
+.form-select {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Login and Register buttons */
+.btn-login {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+}
+
+.btn-login:hover {
+    background-color: #0b5ed7;
+}
+
+/* Cancel button */
+.btn-cancel {
+    background-color: #dee2e6;
+    color: #000;
+    border: none;
+    padding: 8px 20px;
+}
+
+.btn-cancel:hover {
+    background-color: #c4c4c4;
+}
