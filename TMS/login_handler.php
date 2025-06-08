@@ -19,7 +19,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['role'] = $row['role'];
 
             // Redirect based on role
-                    header("Location: user_dashboard.php");
             header("Location: dashboard.php");
             exit();
         } else {
