@@ -19,20 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['role'] = $row['role'];
 
             // Redirect based on role
-            switch ($row['role']) {
-                case 'Admin':
-                    header("Location: admin_dashboard.php");
-                    break;
-                case 'User':
                     header("Location: user_dashboard.php");
-                    break;
-                case 'Agent':
-                    header("Location: agent_dashboard.php");
-                    break;
-                default:
-                    header("Location: login.php");
-                    break;
-            }
+            header("Location: dashboard.php");
             exit();
         } else {
             echo "<script>alert('Invalid password'); window.location.href='login.php';</script>";
