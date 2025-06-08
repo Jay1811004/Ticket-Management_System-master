@@ -22,9 +22,9 @@
     <form action="login_handler.php" method="POST">
         <label for="role" class="form-label"><i class="bi bi-person-fill"></i> Role</label>
         <select name="role" id="role" class="form-select" required>
-            <option value="Teacher">Admin</option>
-            <option value="Student">User</option>
-            <option value="Student">Agent</option>
+            <option value="Admin">Admin</option>
+            <option value="User">User</option>
+            <option value="Agent">Agent</option>
         </select>
 
         <label for="email" class="form-label"><i class="bi bi-envelope-fill"></i> Email</label>
@@ -35,7 +35,7 @@
 
         <div class="d-flex justify-content-between mt-4">
             <button type="submit" class="btn btn-login">LOGIN</button>
-            <button type="reset" class="btn btn-cancel">CANCEL</button>
+            <a href="register.php" class="btn btn-outline-primary">New User?</a>
         </div>
     </form>
 </div>
