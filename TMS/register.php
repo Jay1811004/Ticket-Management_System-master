@@ -22,9 +22,9 @@
     <form action="register_handler.php" method="POST">
         <label for="role" class="form-label"><i class="bi bi-person-fill"></i> Role</label>
         <select name="role" id="role" class="form-select" required>
-            <option value="Teacher">Admin</option>
-            <option value="Student">User</option>
-            <option value="Student">Agent</option>
+            <option value="Admin">Admin</option>
+            <option value="User">User</option>
+            <option value="Agent">Agent</option>
         </select>
 
         <label for="name" class="form-label"><i class="bi bi-person"></i> Full Name</label>
@@ -38,7 +38,7 @@
 
         <div class="d-flex justify-content-between mt-4">
             <button type="submit" class="btn btn-login">REGISTER</button>
-            <button type="reset" class="btn btn-cancel">CANCEL</button>
+            <a href="login.php" class="btn btn-outline-primary">Already Registered?</a>
         </div>
     </form>
 </div>
